@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+*{    
+  padding: 0; margin: 0; 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    
+}
+body{
+  background:url("./assets/herobg.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+li, a  {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+    
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+.logo{
+  cursor: pointer;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  width: 5%;
+}
+.nav_links{
+  padding-left: 2rem;      
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 10px;
+  color: #000000;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.hero{
+  color: black;
+  margin-top: 10rem;
+  padding-left: 60px;
+}
+.hero h1{
+  font-family: 'Protest Strike', sans-serif;
+  color: #FFFFFF;
+  font-size: 10em;    
+    
+}
+.hero p{
+  font-size: 25px;
+  color: #FFFFFF;
+    
+}
+
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: rem;
+}
+
+.button-73:hover {
+  background-color: #e7c21f;
+  box-shadow: #ec3915 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 0.8rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.nav_links li {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.nav_links li:hover {
+  box-shadow: inset 100px 0 0 0 #FF8F42;
+  color: #fff;
+     
+}
+
+.nav_links li {
+  color: #FF8F42;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.nav_links {
+  margin-left: 20rem;
+}
+.button{
+  padding-left: 40px;  
+}
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FF8F42;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left; 
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-top: 20px;
+    
+    
+}
+  
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+  
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+  
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.orange{
+  margin-top: rem;
+}
+  
