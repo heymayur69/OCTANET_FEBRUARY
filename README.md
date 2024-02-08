@@ -1,5 +1,5 @@
-Nike Runner 
-"Welcome to Footflex – Where Comfort Meets Style!
+ 
+"Welcome to Nike Runner – Where Comfort Meets Style!
 
 Step into the world of Footflex, where every stride is a testament to comfort and fashion-forward design. Our landing page invites you into a realm where footwear isn't just a necessity but a statement of individuality and wellness.
 
